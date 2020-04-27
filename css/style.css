@@ -1,9 +1,12 @@
 /* Generales */
 body {
-	background: white;
 	margin: 0;
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	background: white;
 }
 
 #curso {
