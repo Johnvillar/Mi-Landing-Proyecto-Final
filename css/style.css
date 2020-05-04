@@ -1,21 +1,56 @@
 /* Generales */
+
+header {
+	background-color: skyblue;
+
+}
+
 body {
-	margin: 0;
-	padding: 0;
+	background-color: skyblue;
+	margin: 1em;
+	padding: 1em;
 	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+
 }
 
-header{
-	background: white;
+figure {
+	background-color: skyblue;
 }
 
-#curso {
-	background-color: blue;
+footer {
+	background-color: skyblue;
 }
 
-#descripcion {
-	background-color: red;
+button {
+	height: 52px;
+	min-height: 24px;
+	width: 189px;
+	background-color: white;
+	border: solid rgba(255, 255, 255, 1) 2px;
+	border-radius: 30px 30px 30px 30px;
+	font-weight: 700;
+	font-size: 18px;
+	color: skyblue;
+	cursor: pointer !important;
+
+
 }
+.logoum {
+	display: grid;
+	flex-wrap: wrap;
+	width: 45%;
+	height: 45%;
+	
+}
+
+.logovirtual {
+	display: flex;
+	width: 45%;
+	height: 45%;
+	
+}
+
 
 #beneficios{
 	width: 40px;
@@ -23,6 +58,73 @@ header{
 
 }
 
-#testimonios {
+.beneficio1{
+	width: 80px;
+	height: 80px;
+}
 
+.beneficio2{
+	width: 80px;
+	height: 80px;
+}
+
+.beneficio3{
+	width: 80px;
+	height: 80px;
+}
+
+.beneficio4{
+	width: 80px;
+	height: 80px;
+}
+
+.fotojuan{
+	width: 20%;
+	height: 20%;
+}
+
+.fotojessica{
+	width: 20%;
+	height: 20%;
+}
+
+.fotojohndoe{
+	width: 20%;
+	height: 20%;
+}
+
+.diagrama{
+	width: 400px;
+	height: 400px;
+}
+
+
+.instagram{
+	width: 50px;
+	height: 50px;
+}
+
+.facebook{
+	width: 50px;
+	height: 50px;
+}
+
+.twitter{
+	width: 50px;
+	height: 50px;
+}
+
+.whatsapp{
+	width: 50px;
+	height: 50px;
+}
+
+.umfooter{
+	width: 50%;
+	height: 50%;
+}
+
+.virtualfooter{
+	width: 50%;
+	height: 50%;
 }
