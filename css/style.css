@@ -112,26 +112,14 @@ footer {
 	color: #2A3B8F;
 }
 
-.fotojuan{
+.fotostest{
 	width: 20%;
 	height: 20%;
 	border-radius: 50%;
 	box-shadow: 1px 0px 0 8px #2DC0D3;
 }
 
-.fotojessica{
-	width: 20%;
-	height: 20%;
-	border-radius: 50%;
-	box-shadow: 1px 0px 0 8px #2DC0D3;
-}
 
-.fotojohndoe{
-	width: 20%;
-	height: 20%;
-	border-radius: 50%;
-	box-shadow: 1px 0px 0 8px #2DC0D3;
-}
 
 .diagrama{
 	width: 400px;
@@ -180,6 +168,7 @@ footer {
 
 #tegustaria{
 	color: white;
+
 }
 
 
