@@ -1,31 +1,30 @@
 /* Generales */
 
 header {
-	background-color: skyblue;
+	background: url(../images/imagenes/principal.jpg) no-repeat top center;
+	padding: 1em 5% 6em;
+	background-size: cover;
 
+}
+	
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-	background-color: skyblue;
-	margin: 1em;
-	padding: 1em;
+	background: url(../images/graficos/background.svg) no-repeat top center;
+	padding: 1em 5% 6em;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
-
-}
-
-figure {
-	background-color: skyblue;
-}
-
-footer {
-	background-color: royalblue;
 }
 
 button {
-	height: 52px;
+	height: 45px;
 	min-height: 24px;
-	width: 189px;
+	width: 160px;
 	background-color: white;
 	border: solid rgba(255, 255, 255, 1) 2px;
 	border-radius: 30px 30px 30px 30px;
@@ -35,26 +34,45 @@ button {
 	cursor: pointer !important;
 }
 
+h1{
+	color: white;
+	font-size: 25px;
+
+}
+
+footer {
+	background-color: #3C4EA1;
+	max-height: 200px;
+}
+
+#descripcion{
+	text-align: auto;
+}
+
 .logoum {
-	display: flex;
-	width: 45%;
-	height: 45%;
+	width: 100%;
+	height: 100%;
 	justify-content: right;
 	}
 
 .logovirtual {
-	display: flex;
-	width: 45%;
-	height: 45%;
+	width: 100%;
+	height: 100%;
 	
 }
 
 .imgprincipal {
-	display: flex;
-	width: 70%;
-	height: 70%;
+	display: grid;
+	width: 100%;
+	height: 100%;
 
 }
+.beneficiostodos{
+	display: grid;
+	grid-template: 3fr 3fr  / 2fr 2fr
+	
+}
+
 
 #beneficios{
 	width: 40px;
@@ -82,19 +100,37 @@ button {
 	height: 80px;
 }
 
+#testimonio1{
+	color: #2A3B8F;
+}
+
+#testimonio2{
+	color: #2A3B8F;
+}
+
+#testimonio3{
+	color: #2A3B8F;
+}
+
 .fotojuan{
 	width: 20%;
 	height: 20%;
+	border-radius: 50%;
+	box-shadow: 1px 0px 0 8px #2DC0D3;
 }
 
 .fotojessica{
 	width: 20%;
 	height: 20%;
+	border-radius: 50%;
+	box-shadow: 1px 0px 0 8px #2DC0D3;
 }
 
 .fotojohndoe{
 	width: 20%;
 	height: 20%;
+	border-radius: 50%;
+	box-shadow: 1px 0px 0 8px #2DC0D3;
 }
 
 .diagrama{
@@ -136,4 +172,158 @@ button {
 	color: white;
 	width: 40%;
 	height: 40%;
+	display: grid;
+	grid-column: 1fr 1fr 1fr 1fr;
+	grid-row: 2fr 2fr;
+
 }
+
+#tegustaria{
+	color: white;
+}
+
+
+
+p{
+	color: white;
+}
+
+@media screen and (min-width: 768px) {
+
+	/*aqui inician los estilos de tablet*/
+.contenedor{
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+	display: grid;
+	grid-gap: 90px;
+}
+
+	/*aqui terminan los estilos de tablet*/
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+	/*aqui inician los estilos de laptop*/
+
+body {
+	background: url(../images/graficos/background.svg) no-repeat top center;
+	padding: 1em 5% 6em;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+h1{
+	font-size: 70px;
+}
+.contenedor{
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+	display: grid;
+}
+
+}
+	.logoum {
+	display: grid;
+	width: 45%;
+	height: 45%;
+	justify-content: right;
+	}
+
+.logovirtual {
+	display: grid;
+	width: 45%;
+	height: 45%;
+}
+
+.imgprincipal {
+	display: grid;
+	width: 100%;
+	height: 100%;
+	margin: none;
+	padding: none;
+}
+
+
+.tablabeneficios{
+	display: grid;
+	padding: 10px;
+
+}
+
+.beneficio1{
+	
+	border: 1px;
+	padding: 20px;
+	font-size: 50px;
+	text-align: right;
+	grid-column-gap: 50px;
+}
+
+.beneficio2{
+	
+	border: 1px;
+	padding: 20px;
+	font-size: 50px;
+	text-align: center;
+	grid-column-gap: 50px;
+}
+
+.fotojuan{
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	box-shadow: 1px 0px 0 10px #2DC0D3;
+
+}
+
+.rectangulo {
+     width: 250px; 
+     height: 300px;
+     background: white;
+     border-radius: 25px;
+}
+
+
+.fotojessica{
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	box-shadow: 1px 0px 0 10px #2DC0D3;
+}
+
+.fotojohndoe{
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	box-shadow: 1px 0px 0 10px #2DC0D3;
+}
+
+.beneficiostodos{
+	display: grid;
+	grid-template: 3fr 3fr  / 2fr 2fr;
+}
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+	/*aqui terminan los estilos de laptop*/
+
+

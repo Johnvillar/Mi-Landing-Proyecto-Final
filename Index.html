@@ -2,14 +2,15 @@
 <html lang="es">
   <head>
 	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, user-scalable=no">
 	  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
 	  <link rel="stylesheet" type="text/css" href="css/style.css">
-	  <img class="imgprincipal" src="images/imagenes/principal.jpg">
 	  <title class="titulo">Curso de Ergonomía y Bienestar Ocupacional Online</title>
   </head>
 <body>
+	<div class="contenedor">
 	<header>
-		<section>
+		<section id="logostop">
 			<img class="logoum" src="images/logos/logoum.svg">
 			<img class="logovirtual" src="images/logos/logoumvirtual.svg">
 			<h1>Curso de Ergonomía y Bienestar Ocupacional Online</h1>
@@ -23,57 +24,62 @@
 	</section>
 	<section id="beneficios">
 		<h2>Beneficios</h2>
-		<section>
-			<div>
+		<section class="beneficiostodos">
+			<div class="tablabeneficios">
+				<div class="beneficio1" src="images/graficos/beneficio1-07.svg"></div/>
 				<img class="beneficio1" src="images/graficos/beneficio1-07.svg">
 			    <h3>La plataforma está disponible para ti 24/7</h3>
 			</div>
 			<div>
+				<div class="beneficio2" src="images/graficos/beneficio2-08.svg"></div/>
 				<img class="beneficio2" src="images/graficos/beneficio2-08.svg">
 				<h3>Comienza el curso cuando quieras</h3>
 			</div>
 			<div>
+				<div class="beneficio3" src="images/graficos/beneficio3-09.svg"></div/>
 				<img class="beneficio3" src="images/graficos/beneficio3-09.svg">
 				<h3>Recibe tu diploma al termino del curso</h3>
 			</div>
 			<div>
+				<div class="beneficio4" src="images/graficos/beneficio4-10.svg"></div/>
 				<img class="beneficio4" src="images/graficos/beneficio4-10.svg">
 				<h3>Avanza a tu propio ritmo</h3>
 			</div>
         </section>
     </section>
-    <section id="testimonios">
+    <section>
     	<h3>Testimonios</h3>
-    	<section>
+    	<div class="rectangulo"></div>
+    	<section id="testimonios">
     		<div>
-    			<img class="fotojuan" src="images/imagenes/juanv.jpg">
+    			<img class="fotojuan" src="images/imagenes/juanv.png">
     			<h4>Juan Villar</h4>
     		</div>
-    		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    		<p id="testimonio1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     		<div> 
-    			<img class="fotojessica" src="images/imagenes/jessica.jpg">
+    			<img class="fotojessica" src="images/imagenes/jessica.png">
     			<h4>Jessica Hernández</h4>
     		</div>
-    		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    		<p id="testimonio2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     		<div>
-    			<img class="fotojohndoe" src="images/imagenes/johndoe.jpg">
+    			<img class="fotojohndoe" src="images/imagenes/johndoe.png">
     			<h4>John Doe</h4>
     		</div>
-    		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    		<p id="testimonio3">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     	</section>
     </section>
 		<figure>
 		<img class="diagrama" src="images/graficos/diagrama.svg">
 		<h4>Diagrama</h4>
 	</figure>
-	<section id="Tegustaria">
-		<h2>¿Te gustaría recibir más información sobre este curso?</h2>
+	<section>
+		<h2 id="tegustaria">¿Te gustaría recibir más información sobre este curso?</h2>
 		<form>
 			<input type="text" name="Nombre" placeholder="Nombre">
 	    	<input type="text" name="Apellidos" placeholder="Apellidos">
 	    	<input type="email" name="E-Mail" placeholder="E-Mail">
 	    	<input type="phone" name="Teléfono" placeholder="Teléfono">
-	    	<div><button>Enviar</button></div>
+	    	<div><button id="enviar">Enviar</button></div>
     	</form>
 	</section>
 </body>
