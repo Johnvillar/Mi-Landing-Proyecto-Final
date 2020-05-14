@@ -34,15 +34,36 @@ button {
 	cursor: pointer !important;
 }
 
+p{
+	color: white;
+}
+
 h1{
 	color: white;
 	font-size: 25px;
 
 }
 
-footer {
-	background-color: #3C4EA1;
-	max-height: 200px;
+h2{
+	color: white;
+	font-size: 25px;
+}
+
+h3{
+	font-size: 10px;
+	color: white;
+}
+
+.testimonio{
+	display: block;
+	margin: 30px auto;
+	background-color: white;
+	width: 55%;
+	padding: 5%;
+	border-radius: 70px;
+	margin-bottom: 40px;
+	margin-top: 95px;
+	color: #2D337F;
 }
 
 #descripcion{
@@ -67,10 +88,11 @@ footer {
 	height: 100%;
 
 }
+
 .beneficiostodos{
 	display: grid;
-	grid-template: 3fr 3fr  / 2fr 2fr
-	
+	grid-template: 3fr 3fr  / 2fr 2fr;
+
 }
 
 
@@ -83,6 +105,7 @@ footer {
 .beneficio1{
 	width: 80px;
 	height: 80px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .beneficio2{
@@ -119,8 +142,6 @@ footer {
 	box-shadow: 1px 0px 0 8px #2DC0D3;
 }
 
-
-
 .diagrama{
 	width: 400px;
 	height: 400px;
@@ -147,35 +168,35 @@ footer {
 	height: 50px;
 }
 
+.virtualfooter{
+	width: 50%;
+	height: 50%;
+}
+
 .umfooter{
 	width: 50%;
 	height: 50%;
 }
 
-.virtualfooter{
-	width: 50%;
-	height: 50%;
-}
-#siguenos{
-	color: white;
-	width: 40%;
-	height: 40%;
-	display: grid;
-	grid-column: 1fr 1fr 1fr 1fr;
-	grid-row: 2fr 2fr;
-
-}
 
 #tegustaria{
 	color: white;
+	font-size: 25px;
 
 }
 
-
-
-p{
-	color: white;
+input{
+	border-radius: 5px;
+	width: 200px;
+	height:30px;
 }
+
+footer {
+	background-color: #3C4EA1;
+	max-height: 200px;
+
+}
+
 
 @media screen and (min-width: 768px) {
 
@@ -197,11 +218,17 @@ p{
 
 	/*aqui inician los estilos de laptop*/
 
+header {
+	background: url(../images/imagenes/principal.jpg) no-repeat top center;
+	background-size: cover;
+	padding: 0;
+}
+
 body {
 	background: url(../images/graficos/background.svg) no-repeat top center;
 	padding: 1em 5% 6em;
 	background-size: cover;
-	margin: 0;
+	margin: 0; 	
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
@@ -209,6 +236,28 @@ body {
 
 h1{
 	font-size: 70px;
+}
+
+p{
+	color: #2A3B8F;
+}
+
+footer{
+	display: inline-grid;
+	background-color: #2A3B8F;
+	background-size: 40%;
+	padding: 1em 10% 7em;
+
+}
+
+.elcurso{
+	color: white;
+	font-size: 25px;
+
+}
+
+.sub{
+	font-size: 35px;
 }
 .contenedor{
 	width: 90%;
@@ -231,14 +280,6 @@ h1{
 	height: 45%;
 }
 
-.imgprincipal {
-	display: grid;
-	width: 100%;
-	height: 100%;
-	margin: none;
-	padding: none;
-}
-
 
 .tablabeneficios{
 	display: grid;
@@ -251,7 +292,7 @@ h1{
 	border: 1px;
 	padding: 20px;
 	font-size: 50px;
-	text-align: right;
+	text-align: center;
 	grid-column-gap: 50px;
 }
 
@@ -264,35 +305,6 @@ h1{
 	grid-column-gap: 50px;
 }
 
-.fotojuan{
-	width: 110px;
-	height: 110px;
-	border-radius: 50%;
-	box-shadow: 1px 0px 0 10px #2DC0D3;
-
-}
-
-.rectangulo {
-     width: 250px; 
-     height: 300px;
-     background: white;
-     border-radius: 25px;
-}
-
-
-.fotojessica{
-	width: 110px;
-	height: 110px;
-	border-radius: 50%;
-	box-shadow: 1px 0px 0 10px #2DC0D3;
-}
-
-.fotojohndoe{
-	width: 110px;
-	height: 110px;
-	border-radius: 50%;
-	box-shadow: 1px 0px 0 10px #2DC0D3;
-}
 
 .beneficiostodos{
 	display: grid;
@@ -300,7 +312,37 @@ h1{
 }
 
 
+.fotostest{
+	width: 20%;
+	height: 20%;
+	border-radius: 50%;
+	box-shadow: 1px 0px 0 8px #2DC0D3;
+}
 
+
+#testimonios{
+	display: block;
+	margin: auto;
+	width: 70%;
+	margin-top: -95px;
+	color: yellow;
+}
+
+.testimonio{
+	display: block;
+	margin: 30px auto;
+	background-color: white;
+	width: 55%;
+	padding: 5%;
+	border-radius: 70px;
+	margin-bottom: 40px;
+	margin-top: 95px;
+}
+
+.diagrama{
+	width: 700px;
+	height: 700px;
+}
 
 	
 
