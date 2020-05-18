@@ -59,8 +59,9 @@ figure{
 }
 
 .nombres{
-	font-size: 20px;
+	font-size: 22px;
 	color: #2D368F;
+    font-weight: 700;
 }
 
 .elcurso{
@@ -213,12 +214,21 @@ h3 {
     font-size: 25px;
 }
 
+.nombres {
+    font-size: 20px;
+
+}
+
 #logostop{
 	display: grid;
 	grid-template-columns: 50% 50%;
 	grid-template-rows: 1fr;
 	width: 100%;
 	margin-bottom: 1em;
+}
+
+.diagrama{
+	width: 60%
 }
 
 button {
@@ -284,6 +294,9 @@ h2 {
     margin-bottom: 5em;
 }
 
+#testimonios {
+    grid-template-rows: 110px 1fr;
+}
 
 .testimonios {
     margin: 2em 4em;
@@ -292,10 +305,47 @@ h2 {
 
 }
 
+.nombres {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.diagrama {
+    width: 50%;
+    margin-top: 6em;
+    margin-bottom: 4em;
+}
+
+#tegustaria {
+    font-size: 30px;
+}
+
+input {
+    max-width: 780px;
+}
 
 
+#siguenos {
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 1fr 3em;
+}
 
+.redesfoot {
+    grid-column-gap: 1%;
+    grid-column-start: 2;
+}
 
+#derechos {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+#imgfooter {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 85% 85%;
+    grid-column-gap: 40em;
+}
 
 
 	/*aqui terminan los estilos de laptop*/
