@@ -50,24 +50,33 @@ h2{
 }
 
 h3{
-	font-size: 10px;
-	color: white;
+	font-size: 16px;
+    color: white;
+    font-weight: normal;
 }
 
-.testimonio{
+figure{
+	margin: 10px;
+}
+
+.nombres{
+	font-size: 20px;
+	color: #2D368F;
+
+}
+
+.testimonios{
 	display: block;
-	margin: 30px auto;
-	background-color: white;
-	width: 55%;
-	padding: 5%;
-	border-radius: 70px;
-	margin-bottom: 40px;
-	margin-top: 95px;
-	color: #2D337F;
+    margin: 4em 5%;
+    background-color: white;
+    width: 80%;
+    padding: 5%;
+    border-radius: 40px;
+    color: #2D337F;
 }
 
 #descripcion{
-	text-align: auto;
+	margin: 1em 5%;
 }
 
 .logoum {
@@ -89,7 +98,7 @@ h3{
 
 }
 
-.beneficiostodos{
+.beneficio{
 	display: grid;
 	grid-template: 3fr 3fr  / 2fr 2fr;
 
@@ -97,15 +106,15 @@ h3{
 
 
 #beneficios{
-	width: 40px;
-	height: 60px;
+	width: 90%;
+	margin: 1em 5%;
 
 }
 
 .beneficio1{
 	width: 80px;
 	height: 80px;
-	font-family: 'Montserrat', sans-serif;
+	
 }
 
 .beneficio2{
@@ -123,61 +132,54 @@ h3{
 	height: 80px;
 }
 
-#testimonio1{
-	color: #2A3B8F;
-}
-
-#testimonio2{
-	color: #2A3B8F;
-}
-
-#testimonio3{
-	color: #2A3B8F;
-}
-
 .fotostest{
-	width: 20%;
-	height: 20%;
+	width: 43%;
 	border-radius: 50%;
 	box-shadow: 1px 0px 0 8px #2DC0D3;
+	margin-top: -33px;
 }
 
 .diagrama{
-	width: 400px;
-	height: 400px;
+	width: 100%;
+}
+
+.testimoniotext{
+	color:#2D368F;
+	text-align: center;
+}
+
+.instagram, .facebook, .twitter, .whatsapp{
+	width: 100%;
+
+}
+
+.virtualfooter, .umfooter{
+	width: 100%;
 }
 
 
-.instagram{
-	width: 50px;
-	height: 50px;
+
+.redesfoot{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20%;
+	grid-template-rows: 1fr;
+	align-self: auto;
+	margin: auto;
+	padding: auto;
+	grid-column-gap: 5%;
+
 }
 
-.facebook{
-	width: 50px;
-	height: 50px;
+#siguenos{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 1fr 6em;
 }
 
-.twitter{
-	width: 50px;
-	height: 50px;
+#derechos{
+	grid-column-start: 1;
+	grid-column-end: 3;
 }
-
-.whatsapp{
-	width: 50px;
-	height: 50px;
-}
-
-.virtualfooter{
-	width: 50%;
-	height: 50%;
-}
-
-.umfooter{
-	width: 50%;
-	height: 50%;
-}
-
 
 #tegustaria{
 	color: white;
@@ -185,15 +187,23 @@ h3{
 
 }
 
+#enviar{
+	margin-top: 1em;
+	margin-bottom: 3em;
+}
+
 input{
 	border-radius: 5px;
-	width: 200px;
+	width: 90%;
 	height:30px;
+	border: 0;
+	margin: 5px 0;
+	padding-left: 1em; 
 }
 
 footer {
 	background-color: #3C4EA1;
-	max-height: 200px;
+	max-height: 210px;
 
 }
 
@@ -201,15 +211,154 @@ footer {
 @media screen and (min-width: 768px) {
 
 	/*aqui inician los estilos de tablet*/
-.contenedor{
-	width: 90%;
-	max-width: 1000px;
-	margin: 20px auto;
-	display: grid;
-	grid-gap: 90px;
+
+header {
+	background: url(../images/imagenes/principal.jpg) no-repeat top center;
+	padding: 1em 5% 6em;
+	background-size: cover;
+
 }
 
+h1{
+	font-size: 60px;
+}
+
+h2{
+	font-size: 40px;
+	text-align: center;
+}
+
+.logoum{
+	width: 90%
+}
+
+.logovirtual{
+	width: 110%;
+}
+
+.logostop{
+	display: grid;
+	width: 100%;
+	grid-template-columns: 55% 55%;
+	grid-template-rows: 4em 4em;
+	}
+
+
+
+#descripcion{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 4em;
+
+}
+
+.contenedor{
+	width: 100%;
+}
+
+
+.beneficio1{
+	width: 100px;
+	
+	
+}
+
+.beneficio2{
+	width: 100px;
+	
+}
+
+.beneficio3{
+	width: 100px;
+	
+}
+
+.beneficio4{
+	width: 100px;
+	
+}
+
+.beneficiostodos{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+
+.beneficio{
+	display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    margin-bottom: 5px;
+    align-items: center;
+
+}
+
+.testimonio{
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-template-rows: 1fr 1fr;
+	align-items: center;
+}
+
+.testimonios{
+	display: block;
+    margin: 4em 5%;
+    background-color: white;
+    width: 80%;
+    padding: 5%;
+    border-radius: 40px;
+    color: #2D337F;
+}
+
+.fotostest{
+	width: 131px;
+	border-radius: 30%;
+	box-shadow: 1px 0px 0 8px #2DC0D3;
+	}
+
+.redesfoot{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 1fr;
+	align-items: : center;
+	margin: auto;
+	grid-column-gap: 1px;
+
+}
+
+.virtualfooter{
+	width: 300px;
+}
+
+.umfooter{
+	width: 300px;
+}
+
+.social{
+	width: 45px;
+}
+
+
+#siguenos{
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-template-rows: 3fr 6em;
+}
+
+#derechos{
+	text-align: center;
+	width: 170%;
+	margin-bottom: 8px;
+}
+
+footer{
+	width: 100%;
+	height: 100%;
+	background-color: #3C4EA1;
+
+}
 	/*aqui terminan los estilos de tablet*/
+
 
 
 
@@ -222,6 +371,21 @@ header {
 	background: url(../images/imagenes/principal.jpg) no-repeat top center;
 	background-size: cover;
 	padding: 0;
+}
+
+button{
+	height: 45px;
+	min-height: 24px;
+	width: 160px;
+	background-color: white;
+	border: solid rgba(255, 255, 255, 1) 2px;
+	border-radius: 30px 30px 30px 30px;
+	font-weight: 700;
+	font-size: 18px;
+	color: skyblue;
+	cursor: pointer !important;
+	margin-top: 3em;
+	margin-bottom: 6em; 
 }
 
 body {
@@ -259,15 +423,14 @@ footer{
 .sub{
 	font-size: 35px;
 }
+
 .contenedor{
-	width: 90%;
-	max-width: 1000px;
-	margin: 20px auto;
-	display: grid;
+	width: 100%;
+	
 }
 
 }
-	.logoum {
+.logoum {
 	display: grid;
 	width: 45%;
 	height: 45%;
@@ -344,7 +507,15 @@ footer{
 	height: 700px;
 }
 
-	
+.redesfoot{
+	display: grid;
+	grid-template-columns: 60px 60px 60px 60px;
+	grid-template-rows: 3px;
+	margin: auto;
+	padding: auto;
+}
+
+
 
 
 
