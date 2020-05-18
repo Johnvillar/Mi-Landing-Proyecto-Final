@@ -1,0 +1,142 @@
+
+
+
+
+
+#logostop{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 10em 0 0;
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+.logotop{
+	width: 150%;
+	height: 150%;
+}
+
+.logoum{
+	width: 90%
+}
+
+.logovirtual{
+	width: 110%;
+}
+
+.logostop{
+	display: grid;
+	width: 100%;
+	grid-template-columns: 55% 55%;
+	grid-template-rows: 4em 4em;
+	height: 
+}
+
+
+#descripcion{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 4em;
+
+}
+
+.contenedor{
+	width: 100%;
+}
+
+
+.beneficio1{
+	width: 100px;
+	
+	
+}
+
+.beneficio2{
+	width: 100px;
+	
+}
+
+.beneficio3{
+	width: 100px;
+	
+}
+
+.beneficio4{
+	width: 100px;
+	
+}
+
+.beneficiostodos{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+
+.beneficio{
+	display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    margin-bottom: 5px;
+    align-items: center;
+
+}
+
+.testimonio{
+	display: block;
+    margin: 4em 5%;
+    background-color: white;
+    width: 80%;
+    padding: 5%;
+    border-radius: 40px;
+    color: #2D337F;
+
+}
+
+.fotostest{
+	width: 50%;
+	border-radius: 68%;
+	box-shadow: 1px 0px 0 8px #2DC0D3;
+}
+
+
+.redesfoot{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 1fr;
+	align-items: : center;
+	margin: auto;
+	grid-column-gap: 1px;
+
+}
+
+.virtualfooter{
+	width: 300px;
+}
+
+.umfooter{
+	width: 300px;
+}
+
+.social{
+	width: 45px;
+}
+
+
+#siguenos{
+	display: grid;
+	grid-template-columns: 66% 0%;
+	grid-template-rows: 3em;
+}
+
+#derechos{
+	text-align: center;
+	width: 170%;
+	margin-bottom: 8px;
+}
+
+footer{
+	width: 100%;
+	height: 100%;
+	background-color: #3C4EA1;
+
+}

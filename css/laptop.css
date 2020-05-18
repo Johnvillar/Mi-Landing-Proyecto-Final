@@ -1,0 +1,186 @@
+header {
+	background: url(../images/imagenes/principal.jpg) no-repeat top center;
+	background-size: cover;
+	padding: 0;
+}
+
+button{
+	height: 45px;
+	min-height: 24px;
+	width: 160px;
+	background-color: white;
+	border: solid rgba(255, 255, 255, 1) 2px;
+	border-radius: 30px 30px 30px 30px;
+	font-weight: 700;
+	font-size: 18px;
+	color: skyblue;
+	cursor: pointer !important;
+	margin-top: 3em;
+	margin-bottom: 6em; 
+}
+
+body {
+	background: url(../images/graficos/background.svg) no-repeat top center;
+	padding: 1em 5% 6em;
+	background-size: cover;
+	margin: 0; 	
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+h1{
+	font-size: 70px;
+}
+
+#logostop{
+	display: grid;
+	grid-template-columns: 100% 100%;
+	grid-template-rows: 20em;
+}
+
+
+.testimoniotext{
+	color: #2A3B8F;
+}
+
+.elcurso{
+	color: white;
+	font-size: 25px;
+
+}
+
+.nombres{
+	font-size: 20px;
+	color: #2D368F;
+	font-weight: bold;
+}
+
+.sub{
+	font-size: 35px;
+}
+
+.contenedor{
+	width: 100%;
+}
+
+.logoum {
+	display: grid;
+	width: 45%;
+	height: 45%;
+	justify-content: right;
+	}
+
+.logovirtual {
+	display: grid;
+	width: 45%;
+	height: 45%;
+}
+
+#beneficios{
+
+}
+
+.bene{
+	width: 40px;
+	height: 60px;
+	margin-bottom: 9em;
+}
+
+.beneficio1{
+	
+	border: 1px;
+	padding: 20px;
+	font-size: 50px;
+	text-align: center;
+	grid-column-gap: 50px;
+	align-items: center;
+}
+
+.beneficio2{
+	
+	border: 1px;
+	padding: 20px;
+	font-size: 50px;
+	text-align: center;
+	grid-column-gap: 50px;
+}
+
+
+.beneficiostodos{
+	display: grid;
+	grid-template: 3fr 3fr  / 2fr 2fr;
+}
+
+
+.fotostest{
+	width: 20%;
+	height: 20%;
+	border-radius: 50%;
+	box-shadow: 1px 0px 0 8px #2DC0D3;
+}
+
+
+#testimonios{
+	display: block;
+	margin: auto;
+	width: 70%;
+	margin-top: -95px;
+	color: yellow;
+}
+
+.testimonio{
+	display: inline-block;
+	width: 300px;
+  	height: 400px;
+  	padding: 5px;
+	margin: 30px auto;
+	background-color: white;
+	border-radius: 70px;
+}
+
+.fotostest{
+	width: 50%;
+	border-radius: 68%;
+	box-shadow: 1px 0px 0 8px #2DC0D3;
+	margin-top: -88px;
+}
+
+.diagrama{
+	width: 700px;
+	height: 700px;
+}
+
+
+#tegustaria{
+	font-size: 30px;
+}
+
+.redesfoot{
+	display: grid;
+	grid-template-columns: 50px 50px 50px 50px;
+	grid-template-rows: 3px;
+	margin: auto;
+	padding: auto;
+}
+
+#derechos{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin: auto;
+}
+
+#siguenos{
+	display: grid;
+	grid-template-columns: 28% 48%;
+	grid-template-rows: 40px 40px 54px;
+	background-color: #2A3B8F;
+	padding: 1em 1% 3em;
+	width: 100%
+}
+
+footer{
+background-color: #2A3B8F;
+width: 98%;
+}
